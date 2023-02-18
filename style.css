@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#canvas {
+    background-color: gray;
+}
+
+.game-over {
+    background-color: red;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 5rem 1rem;
+    width: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
